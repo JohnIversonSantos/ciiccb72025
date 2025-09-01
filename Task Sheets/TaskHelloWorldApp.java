@@ -9,7 +9,7 @@
  * 4. Closed the string properly with quotation marks.
  * 5. Changed the printed message from "Hello World!" to "Kamusta Mundo!".
  */
-public class HelloWorldApp { 
+public class TaskHelloWorldApp { 
     public static void main(String[] args) {  
         // Print "Kamusta Mundo!"
         System.out.println("Kamusta Mundo!"); 

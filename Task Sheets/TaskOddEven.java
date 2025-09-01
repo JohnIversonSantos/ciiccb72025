@@ -1,4 +1,4 @@
-class OddEven {
+class TaskOddEven {
     public static void main(String[] args) {
         int check_number = 10;
         String message;
