@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TaskStringBuilder {
+public class Task4_StringBuilder {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -13,11 +13,7 @@ public class TaskStringBuilder {
 
         System.out.println(str + " = " + reversedStr);
 
-        if (str.equalsIgnoreCase(reversedStr)) {
-            System.out.println("Palindrome");
-        } else {
-            System.out.println("Not a palindrome");
-        }
+        System.out.println(str.equalsIgnoreCase(reversedStr) ? "Palindrome" : "Not a palindrome");
 
         input.close();
     }
