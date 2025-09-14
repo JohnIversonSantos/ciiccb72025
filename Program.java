@@ -8,14 +8,14 @@ import java.util.Set;
 public class Program{
 
 	public static void main(String[] args) {
-		ArrayList<Integer> list = new ArrayList<Integer>();
-		list.add(1);
-		list.add(2);
-		list.add(3);
-		list.add(4);
+		// ArrayList<Integer> list = new ArrayList<Integer>();
+		// list.add(1);
+		// list.add(2);
+		// list.add(3);
+		// list.add(4);
 
-		int sum = list.stream().mapToInt(Integer::intValue).sum();
-		System.out.println("Sum: " + sum);
+		// int sum = list.stream().mapToInt(Integer::intValue).sum();
+		// System.out.println("Sum: " + sum);
 
 		Set<Integer> set = new HashSet<>();
 		Set<Integer> setVar = Set.of(1,2,3,4,5);
@@ -27,6 +27,13 @@ public class Program{
 
 		System.out.println("Set: " + sumSetVar);
 		System.out.println("Sum Set: " + sumSet);
+		// StringBuilder sb = new StringBuilder("Hello");
+		// String s = "Hello";
+		// if(sb.toString().equals(s.toString())){
+		// 	System.out.println("Equal");
+		// }else{
+		// 	System.out.println("Not Equal");
+		// }
 	}
 
 }
