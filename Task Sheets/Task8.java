@@ -6,7 +6,7 @@ public class Task8 {
     public static int sumCumulative(int... numbers) {
         int totalSum = 0;
 
-        // Enhanced for each loop
+        // Enhanced for-each loop
         for (int n : numbers) {
             int cumulative = n * (n + 1) / 2;
             System.out.println("Cumulative sum for " + n + ": " + cumulative);
@@ -24,12 +24,10 @@ public class Task8 {
 
         int[] numbers = new int[count];
 
-        // enhanced for loop
-        int i = 0;
-        for (int j : numbers) {
+        // Use normal for loop for indexed input
+        for (int i = 0; i < count; i++) {
             System.out.print("Enter number #" + (i + 1) + ": ");
             numbers[i] = input.nextInt();
-            i++;
         }
 
         int total = sumCumulative(numbers);

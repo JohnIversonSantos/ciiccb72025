@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.function.Predicate;
 
 public class Task6 {
     public static void main(String[] args) {
